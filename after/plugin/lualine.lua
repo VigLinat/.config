@@ -1,7 +1,7 @@
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = vim.g.colors_name == 'lightning' and 'papercolor' or 'auto',
     -- section_separators = {left= '', right= ''},
     -- component_separators = {left= '', right= ''},
     section_separators = '',
@@ -39,9 +39,9 @@ require('lualine').setup {
                readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
                unnamed = '[No Name]', -- Text to show for unnamed buffers.
                newfile = '[New]',     -- Text to show for new created file before first writting
-             }
-         }
-     },
+            }
+        }
+    },
     lualine_x = {
         {
             'filetype',

@@ -5,7 +5,7 @@ vim.cmd [[ let $SESSIONS=$DATA_DIR.'\sessions\' ]]
 vim.cmd [[ let $TMP=$DATA_DIR.'\tmp\' ]]
 
 vim.cmd [[ let $LUA=$INIT_DIR.'\lua\viglinat\' ]]
-vim.cmd [[ let $AFTER_PLUGIN=$INIT_DIR.'\after\plugin\' ]]
+vim.cmd [[ let $AFTER_PLUGIN=$INIT_DIR.'\after\plugin' ]]
 
 vim.cmd [[ let $DESKTOP=$HOME.'\desktop' ]]
 vim.cmd [[ let $DEV=$HOME.'\dev\' ]]

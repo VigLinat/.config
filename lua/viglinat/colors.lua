@@ -10,5 +10,9 @@ if has('termguicolors')
 endif
 ]]
 
-vim.cmd [[ set background=dark ]]
-vim.cmd[[ colorscheme terafox ]]
+-- terafox is great and all but THIS!!
+vim.cmd [[ colorscheme saturnite ]]
+-- Light variant
+-- vim.cmd [[ colorscheme lightning ]]
+-- THE MATRIX
+-- vim.cmd [[ colorscheme thematrix ]]

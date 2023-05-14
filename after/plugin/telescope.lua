@@ -53,5 +53,9 @@ vim.keymap.set('n', '<Leader>lg', builtin.live_grep, {})
 vim.keymap.set('n', '<Leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<Leader>fh', builtin.help_tags, {})
 
-vim.keymap.set('n', '<Leader>cl', builtin.colorscheme, {})
+vim.keymap.set('n', '<Leader>cl', 
+function() 
+    builtin.colorscheme({true})
+    vim.cmd [[ source $AFTER_PLUGIN\lualine.lua ]]
+end, {})
 vim.keymap.set('n', '<Leader>jl', builtin.jumplist, {})

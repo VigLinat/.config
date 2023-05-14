@@ -12,7 +12,7 @@ vim.keymap.set('n', '<S-k>', '')
 -- Delete without yank
 vim.keymap.set({ 'n', 'v' }, 'd', '"_d')
 -- Select all
-vim.keymap.set('n', '<C-a>', 'gg<S-v>G')
+-- vim.keymap.set('n', '<C-a>', 'gg<S-v>G')
 
 vim.keymap.set('n', '<Leader>cd', '<cmd>cd %:p:h<CR><cmd>pwd<CR>')
 vim.keymap.set('n', '<Leader>lcd', '<cmd>lcd %:p:h<CR><cmd>pwd<CR>')

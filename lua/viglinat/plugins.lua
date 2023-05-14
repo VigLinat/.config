@@ -8,6 +8,9 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'fcpg/vim-farout'
     Plug 'EdenEast/nightfox.nvim'
+    Plug 'luisiacc/the-matrix.nvim'
+    Plug 'wimstefan/Lightning'
+    Plug 'habamax/vim-saturnite'
 
     -- Editing
     Plug 'cohama/lexima.vim'
