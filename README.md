@@ -1,1 +1,2 @@
+OBSOLETE
 nvim config
